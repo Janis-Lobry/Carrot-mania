@@ -275,11 +275,6 @@ p.text-light {
     font-weight: 600;
     font-size: larger;
 }
-.jumbotron.jumbotron-fluid.bg-dark {
-    background: black;
-	/*	margin-top: 150px; */
-
-}
 
 .well {
 padding: 48px;
@@ -296,10 +291,6 @@ font-family: 'Merriweather Sans', sans-serif;
 .jumbotron.jumbotron-fluid.bg-light.describe {
 	background-color: white;
 }
-.jumbotron.jumbotron-fluid.bg-dark {
-    background: #f0b87f;
-
-}
 
 img.img-game-desc,
 .command-game,
@@ -311,6 +302,12 @@ h2.game-title-desc {
   font-size: 63px;
 
 }
+.row.piskel {
+	margin: 0px !important;
+}
+.col-md-6.howToPlay {
+	padding-right: 0px !important;
+}
 img.command-game1 {
     margin-top: 50px;
 }
@@ -320,6 +317,12 @@ img.command-game1 {
 .contact-map {
     background: #f7f7f9;
 }
+div.jumbotron.jumbotron-fluid.bg-dark.describe.text-justify {
+	  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	background: #f0b87f;
+}
+
+
 
 /*-----------------------------------------------------------------------
 Start of about section
@@ -978,7 +981,7 @@ End of team member section
 -------------------------------------------------------------------------*/
 
 img.extra1 {
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 /*-----------------------------------------------------------------------
